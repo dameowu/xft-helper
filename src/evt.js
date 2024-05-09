@@ -9,7 +9,7 @@ _evtHelper = null;
 _pubKey = null;
 function init(pubKey) {
   if (!_evtHelper) {
-    _evtHelper = java.import('com.cmb.xft.util.EvtHelper');
+    _evtHelper = java.import('com.unimeowu.xft.util.EvtHelper');
 
     _evtHelper.initSync(pubKey);
     _pubKey = pubKey;

@@ -11,7 +11,7 @@ const XFT_TIME_OUT = 10000;
 
 let _apiHelper = null;
 function init(compandId, appId, authSecret) {
-  _apiHelper = java.import('com.cmb.xft.util.ApiHelper');
+  _apiHelper = java.import('com.unimeowu.xft.util.ApiHelper');
   _apiHelper.initSync(compandId, appId, authSecret);
 }
 
